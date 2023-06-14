@@ -1,0 +1,126 @@
+<!-- Como Funciona Inicio html -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" type="text/css" href="ComoFunciona-style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+		<title>Investir</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+        <link rel="icon" href="https://www.opet.com.br/themes/opet/assets/site/img/icon-uniopet-grad.png%22%3E">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Como Funciona | showcase acad.</title>
+    </head>
+    <body class="ComoFunciona-body">
+        <header>
+			<a href="../home/index.html" class="logo"><img src="../home/imagens/teste-novo-50.png" alt=""></a>
+			<div class="navigation">
+			  <ul class="menu">
+				<div class="close-btn"></div>
+				<li class="menu-item"><a href="../home/index.html">Home</a></li>
+				<li class="menu-item"><a href="../P.I - Investir/Investir.html">Investir</a></li>
+				<li class="menu-item"><a href="../PI CAPTAR/captar.html">Captar</a></li>
+				<li class="menu-item"><a href="../P.I-comoFunciona/ComoFunciona-index.html">Como Funciona</a></li>
+				<li class="btn-login menu-item"><a href="../log/login.html">Login</a></li>
+				<li class="btn-sing menu-item"><a href="../cad/cadastro.html">Cadastro</a></li>
+			  </ul>
+			</div>
+			<div class="menu-btn"></div>
+		  </header>
+          <script type="text/javascript">
+			//jquery for toggle dropdown menus
+			$(document).ready(function(){
+			  //toggle sub-menus
+			  $(".sub-btn").click(function(){
+				$(this).next(".sub-menu").slideToggle();
+			  });
+	  
+			  //toggle more-menus
+			  $(".more-btn").click(function(){
+				$(this).next(".more-menu").slideToggle();
+			  });
+			});
+	  
+			//javascript for the responsive navigation menu
+			var menu = document.querySelector(".menu");
+			var menuBtn = document.querySelector(".menu-btn");
+			var closeBtn = document.querySelector(".close-btn");
+	  
+			menuBtn.addEventListener("click", () => {
+			  menu.classList.add("active");
+			});
+	  
+			closeBtn.addEventListener("click", () => {
+			  menu.classList.remove("active");
+			});
+	  
+			//javascript for the navigation bar effects on scroll
+			window.addEventListener("scroll", function(){
+			  var header = document.querySelector("header");
+			  header.classList.toggle("sticky", window.scrollY > 0);
+			});
+			</script>
+        <div class="main-image">
+            <div class="container">
+                <span class="barra">_</span>
+                <h1><span>Como funciona</span></h1>
+                <span class="cen">Como fazer parte da Showcase</span>
+                <BR/><BR/>
+                <a class="button" href="#">Cadastre-se</a>
+             </div>
+        </div>
+        <section class="ComoFunciona-section">
+            <div class="ComoFunciona-criterios-titulo" style="color:#ffff ;"><h1>Nosso Critério</h1></div>
+            <div class="ComoFunciona-criterios">
+                <div class="ComoFunciona-box"><img class="ComoFunciona-criterios-icone" src="ComoFunciona-img/academico.png" alt=""><h3>Projero ser realizado por um academico</h3></div>
+                <div class="ComoFunciona-box"><img class="ComoFunciona-criterios-icone" src="ComoFunciona-img/aperto-de-mao.png" alt=""><h3>Ter compromisso com o projeto</h3></div>
+                <div class="ComoFunciona-box"><img class="ComoFunciona-criterios-icone" src="ComoFunciona-img/contrato.png" alt=""><h3>Ser um projeto com fins sérios</h3></div>
+            </div>
+            <div class="ComoFunciona-comoInvestir">
+                <div class="ComoFunciona-comoInvestir-titulo"><h1>Como investir</h1></div>
+                <div class="ComoFunciona-comoInvestir">
+                    <div class="ComoFunciona-comoInvestir-corpo">
+                        <div class="ComoFunciona-comoInvestir-topicos"><h3>Escolha um projeto que queira investir</h3></div>
+                        <div class="ComoFunciona-comoInvestir-topicos"><h3>Aguarde encarminharmos o criador do projeto</h3></div>
+                        <div class="ComoFunciona-comoInvestir-topicos"><h3>Negocie diretamento com o criador do projeto que você tem interesse</h3></div>
+                    </div>
+                    <div class="ComoFunciona-comoInvestir-icone">
+                        <img src="ComoFunciona-img/como-funciona-celular.png" alt="">
+                    </div>
+                </div>
+                <div class="ComoFunciona-link">
+                    <nav class="ComoFunciona-nav">
+                        <ul class="ComoFunciona-ul">
+                            <li class="ComoFunciona-li"><a href="#">Investir</a></li>             
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="ComoFunciona-criterios-final">
+            <div class="ComoFunciona-criterios-titulo"><h1>Oque precisa para investir</h1></div>
+            <div class="ComoFunciona-criterios">
+                <div class="ComoFunciona-box"><img class="ComoFunciona-criterios-icone" src="ComoFunciona-img/pagina-da-internet.png" alt=""><h3>Projero ser realizado por um academico</h3></div>
+                <div class="ComoFunciona-box"><img class="ComoFunciona-criterios-icone" src="ComoFunciona-img/bolsa-de-dinheiro.png" alt=""><h3>Ter compromisso com o projeto</h3></div>
+                <div class="ComoFunciona-box"><img class="ComoFunciona-criterios-icone" src="ComoFunciona-img/local-na-rede-internet.png" alt=""><h3>Ser um projeto com fins sérios</h3></div>
+            </div>
+            <div class="ComoFunciona-criterios">
+                <div class="ComoFunciona-box"><img class="ComoFunciona-criterios-icone" src="ComoFunciona-img/programming-code-signs.png" alt=""><h3>Projero ser realizado por um academico</h3></div>
+                <div class="ComoFunciona-box"><img class="ComoFunciona-criterios-icone" src="ComoFunciona-img/homem-de-terno-e-gravata.png" alt=""><h3>Ter compromisso com o projeto</h3></div>
+                <div class="ComoFunciona-box"><img class="ComoFunciona-criterios-icone" src="ComoFunciona-img/grafico-crescente.png" alt=""><h3>Ser um projeto com fins sérios</h3></div>
+            </div>
+        </div>
+            </section>
+    </body>
+</html>
+
+<!-- Como Funciona Final html -->

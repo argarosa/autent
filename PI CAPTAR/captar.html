@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>P.I CAPTAR</title>
+        <meta name="viewport" content="width=device-width, initial.scale=1.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+        <link rel="icon" href="https://www.opet.com.br/themes/opet/assets/site/img/icon-uniopet-grad.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+      <header>
+        <a href="../home/index.html" class="logo"><img src="teste-novo-50.png" alt=""></a>
+        <div class="navigation">
+          <ul class="menu">
+            <div class="close-btn"></div>
+            <li class="menu-item"><a href="../home/index.html">Home</a></li>
+            <li class="menu-item"><a href="../P.I - Investir/Investir.html">Investir</a></li>
+            <li class="menu-item"><a href="../PI CAPTAR/captar.html">Captar</a></li>
+            <li class="menu-item"><a href="../P.I-comoFunciona/ComoFunciona-index.html">Como Funciona</a></li>
+            <li class="btn-login menu-item"><a href="../log/login.html">Login</a></li>
+            <li class="btn-sing menu-item"><a href="../cad/cadastro.html">Sing up</a></li>
+          </ul>
+        </div>
+        <div class="menu-btn"></div>
+      </header> 
+      <script type="text/javascript">
+      //jquery for toggle dropdown menus
+      $(document).ready(function(){
+        //toggle sub-menus
+        $(".sub-btn").click(function(){
+          $(this).next(".sub-menu").slideToggle();
+        });
+  
+        //toggle more-menus
+        $(".more-btn").click(function(){
+          $(this).next(".more-menu").slideToggle();
+        });
+      });
+  
+      //javascript for the responsive navigation menu
+      var menu = document.querySelector(".menu");
+      var menuBtn = document.querySelector(".menu-btn");
+      var closeBtn = document.querySelector(".close-btn");
+  
+      menuBtn.addEventListener("click", () => {
+        menu.classList.add("active");
+      });
+  
+      closeBtn.addEventListener("click", () => {
+        menu.classList.remove("active");
+      });
+  
+      //javascript for the navigation bar effects on scroll
+      window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+      </script>
+      <div class="main-image">
+        <div class="container">
+            <span class="barra">_</span>
+            <h1><span>CAPTE RECURSOS PARA O SEU PROJETO</span></h1>
+            <span class="cen">Capte até R$ 10.000 em investimentos para o seu projeto</span>
+            <BR/><BR/>
+            <a class="button" href="#">Capte Aqui</a>
+         </div>
+    </div>
+    <div class="icon-container">
+        <div class="title-icon">
+            <h1>Como Captar</h1>
+            <h1 class="pipe">_</h1>
+        </div>
+        <div class="icone">
+            <article>
+                <img src="ar.svg" alt=" icone">
+                <h4>Conheça o Grupo de Investidores  <br> Associados ao Nosso Sistema</h4>
+            </article>
+             <article>
+                <img src="arq.svg" alt="icone">
+                <h4>Veja Lista de Investidores do <br> Seu Projeto</h4>
+            </article>
+            <article>
+                <img src="arrq.svg" alt="icone">
+                <h4>Empresas Interessadas</h4>
+            </article>
+        </div>
+        <a href="">Cadastre seu projeto</a>
+    </div>
+    <div class="parte3">
+        <div  class="tituloparte">
+            <br><br>
+            <h1>Acesse Nossa Área de Dicas</h1>
+            <div class="pipe2">_</div>
+        </div>
+        <div class="textoparte"> Aqui você pode aprender um pouco mais para dar seguimento ao seu projeto</div>
+        <div class="iconess">
+            <article>
+                <img src="ad.svg" alt=" icone">
+                <h4>Metodos Para que <br> Sua Evolução <br>Seja  Visivel </h4>
+            </article>
+             <article>
+                <img src="ade.svg" alt="icone">
+                <h4>Ideias de Investimentos <br>Para a Sua Ideia</h4>
+            </article>
+            <article>
+                <img src="adef.svg" alt="icone">
+                <h4>Fazer as Engrenagens <br> Começarem a Funcionar</h4>
+            </article>
+        </div>
+    </div>
+    <div class="tela2">
+        <div class="te">
+            <span class="barra2">_</span>
+            <h4>
+            <span class="material-symbols-outlined">&quot;
+            </span> Aqui pode ser um divisor de águas para o seu projeto,<br> você pode captar recursos e investimentos,<br> para que sua ideia saia do papel e vire realidade <span class="material-symbols-outlined">&quot;
+            </span>
+            </h4>
+        </div>
+     </div>
+    </body>       
+</html>

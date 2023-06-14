@@ -1,0 +1,14 @@
+*{
+    text-align: center;   
+    margin-top: 2%;
+    color: #229221;
+    border-color: #229221;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+    background-image: url(../home/imagens/verde-4000px.png);
+}
+body h2{
+    margin-top: 10%;
+}

@@ -1,0 +1,213 @@
+<!DOCKTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+		<title>Investir</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+        <link rel="icon" href="https://www.opet.com.br/themes/opet/assets/site/img/icon-uniopet-grad.png%22%3E">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+
+	<body>
+		<header>
+			<a href="../home/index.html" class="logo"><img src="img/teste-novo-50.png" alt=""></a>
+			<div class="navigation">
+			  <ul class="menu">
+				<div class="close-btn"></div>
+				<li class="menu-item"><a href="../home/index.html">Home</a></li>
+				<li class="menu-item"><a href="Investir.html">Investir</a></li>
+				<li class="menu-item"><a href="../PI CAPTAR/captar.html">Captar</a></li>
+				<li class="menu-item"><a href="../P.I-comoFunciona/ComoFunciona-index.html">Como Funciona</a></li>
+				<li class="btn-login menu-item"><a href="../log/login.html">Login</a></li>
+				<li class="btn-sing menu-item"><a href="../cad/cadastro.html">Cadastro</a></li>
+				
+			  </ul>
+			</div>
+			<div class="menu-btn"></div>
+		  </header> 
+		  <script type="text/javascript">
+			//jquery for toggle dropdown menus
+			$(document).ready(function(){
+			  //toggle sub-menus
+			  $(".sub-btn").click(function(){
+				$(this).next(".sub-menu").slideToggle();
+			  });
+	  
+			  //toggle more-menus
+			  $(".more-btn").click(function(){
+				$(this).next(".more-menu").slideToggle();
+			  });
+			});
+	  
+			//javascript for the responsive navigation menu
+			var menu = document.querySelector(".menu");
+			var menuBtn = document.querySelector(".menu-btn");
+			var closeBtn = document.querySelector(".close-btn");
+	  
+			menuBtn.addEventListener("click", () => {
+			  menu.classList.add("active");
+			});
+	  
+			closeBtn.addEventListener("click", () => {
+			  menu.classList.remove("active");
+			});
+	  
+			//javascript for the navigation bar effects on scroll
+			window.addEventListener("scroll", function(){
+			  var header = document.querySelector("header");
+			  header.classList.toggle("sticky", window.scrollY > 0);
+			});
+			</script>
+		<div class="main-image">
+			<img src="img/bg.jpg" class="bg" alt="">
+			<div class="container">
+				<b>_</b>
+				<h1><span>Visualize suas oportunidades<br/> de investimento em startups</span></h1>
+				<span class="cen"></span>
+			</div>
+		</div>
+	</body>
+			<nav>
+			<div class="ratata">
+				<div class="rodadas">Rodadas de investimento:</div>
+				<div class="ordenar">Ordenar Por:</div>
+				<select class="bot">
+					<option value="da">Data de Abertura</option>
+					<option value="vi">Valor de Investimeto</option>
+				</select>
+			</div>
+			</nav>
+			<div class="container2">
+			<div class="card card-1">
+			<div class="card-header">
+			<img src="img/group-of-people-working-out-business-plan-in-an-office.jpg" class="card-img"/>
+			</div>
+			<div class="card-body">
+				<h3 class="card-local">Projeto 1</h3>
+				<ul class="category-list-card">
+					<p class="category-card">Foodtech</p>
+				</ul>
+				<p class="card-texto">Agricultura Urbana Inteligente para alimentar o mundo sem destruir o planeta</p>
+			</div>
+	 		<div class="redondo">  
+				<div class="himalaia"></div>
+				<p class="aberta">Aberta para investir</p>
+			</div>
+			<div class="card-footer">
+				<img src="img/icone.svg" class="icone-1">
+				<a href="#">10,00%</a>
+				<img src="img/icone-2.svg" class="icone-2">
+				<img src="img/icone-3.svg" class="icone-3">
+				<a href="#">R$1.500.000</a>
+			</div>
+			</div>
+			<div class="card card-2">
+			<div class="card-header">
+			<img src="img/group-of-people-working-out-business-plan-in-an-office (2).jpg" class="card-img"/>
+			</div>
+			<div class="card-body">
+			<h3 class="card-local">Projeto 2</h3>
+			<ul class="category-list-card">
+				<p class="category-card">SAAS</p>
+			</ul>
+			<p class="card-texto">Plataforma de Gestão de Manuntenção</p>
+			</div>
+			<div class="redondo"> 
+			<div class="himalaia"></div>
+			<p class="aberta">Aberta para investir</p>
+			</div>
+			<div class="card-footer">
+			<img src="img/icone.svg" class="icone-1">
+			<a href="#">10,00%</a>
+			<img src="img/icone-2.svg" class="icone-2">
+			<img src="img/icone-3.svg" class="icone-3">
+			<a href="#">R$1,200,000</a>
+        </div>
+		</div>
+			<div class="card card-3">
+			<div class="card-header">
+			<img src="img/group-of-people-working-out-business-plan-in-an-office.jpg" class="card-img"/>
+		</div>
+			<div class="card-body">
+			<h3 class="card-local">Projeto 3</h3>
+			<ul class="category-list-card">
+				<p class="category-card">Inteligência artificial</p>
+			</ul>
+			<p class="card-texto">Automação de Atendimento com Inteligência Artificial</p>
+			</div>
+			<div class="redondo">
+			<div class="himalaia"></div>
+			<p class="aberta">Aberta para investir</p>
+			</div>
+			<div class="card-footer">
+			<img src="img/icone.svg" class="icone-1">
+			<a href="#">7,00%</a>
+			<img src="img/icone-2.svg" class="icone-2">
+			<img src="img/icone-3.svg" class="icone-3">
+			<a href="#">R$2,000,000</a>
+		</div>
+		</div>
+			<div class="card card-4">
+			<div class="card-header">
+			<img src="img/group-of-people-working-out-business-plan-in-an-office (2).jpg" class="card-img"/>
+		</div>
+			<div class="card-body">
+			<h3 class="card-local">Projeto 4</h3>
+			<ul class="category-list-card">
+				<p class="category-card">Healthtech</p>
+			</ul>
+			<p class="card-texto">Plataforma de agendamento de consultas médicas</p>
+			</div>
+			<div class="redondo"> 
+			<div class="himalaia"></div>
+			<p class="aberta">Aberta para investir</p>
+			</div>
+			<div class="card-footer">
+			<img src="img/icone.svg" class="icone-1">
+			<a href="#">10,00%</a>
+			<img src="img/icone-2.svg" class="icone-2">
+			<img src="img/icone-3.svg" class="icone-3">
+			<a href="#">R$1,300,000</a>
+		</div>
+		</div>
+			<div class="card card-5">
+			<div class="card-header">
+			<img src="img/group-of-people-working-out-business-plan-in-an-office.jpg" class="card-img"/>
+		</div>
+			<div class="card-body">
+			<h3 class="card-local">Projeto 5</h3>
+			<ul class="category-list-card">
+				<p class="category-card">Foodtech</p>
+			</ul>
+			<p class="card-texto">Plataforma IoT e analytic para bares e restaurantes</p>
+			</div>
+			<div class="redondo"> 
+			<div class="himalaia"></div>
+			<p class="aberta">Aberta para investir</p>
+			</div>
+			<div class="card-footer">
+			<img src="img/icone.svg" class="icone-1">
+			<a href="#">10,00%</a>
+			<img src="img/icone-2.svg" class="icone-2">
+			<img src="img/icone-3.svg" class="icone-3">
+			<a href="#">R$1,250,000</a>
+		</div>
+		</div>
+		<div class="card card-6">
+			<div class="img-card">
+			<img src="img/icone-4.svg" class="icone-4">
+			<p class="card-money">Quer captar investimento para seu projeto?</p>
+			<button class="botao">Quero captar</button>
+			</div>
+		</div>
+	</body>
+</html>
